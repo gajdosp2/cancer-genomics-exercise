@@ -1,0 +1,6 @@
+#tmp folder
+tmp
+
+#sequence files
+*.fa*
+*.fq*
