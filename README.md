@@ -4,7 +4,6 @@
 
 1. download human genome rference sequence: \
 `curl "http://ftp.ensembl.org/pub/current_fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.chromosome.X.fa.gz" --output Homo_sapiens.GRCh38.dna.chromosome.X.fa.gz`
-`./scripts/read_dept_plot.sh Homo_sapiens.GRCh38.dna.chromosome.X.fa.gz tu.r1.fq.gz tu.r2.fq.gz wt.r1.fq.gz wt.r2.fq.gz `
 2. download samples
 3. run script\
 `scripts/read_dept_plot.sh <ref sequence> <tumor reads 1> <tumor reads 2> <wild reads 1> <wild reads 2>`
